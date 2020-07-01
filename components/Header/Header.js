@@ -24,6 +24,5 @@ class Header {
 
 const headerPage = new Header();
 
-const productsStore = localStorageUtils.getProducts();
+//inainte faceam aici render , dar am mutat renderingul in index.js
 
-headerPage.render(productsStore.length);

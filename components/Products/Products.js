@@ -72,4 +72,4 @@ class Products {
 }
 
 const productsPage = new Products();
-productsPage.render();
+// productsPage.render();  //aici inainte chemam, insa constructia paginii am mutato in index.js
