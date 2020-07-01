@@ -1,0 +1,58 @@
+.saleIcon, .iconCalculator{
+    width: 30px;
+    height: 30px;
+    margin-right: var(--spacing-medium);
+
+}
+.iconCalculator{
+    display: inline-block;
+    margin-bottom: -8px;
+}
+.shopping-container{
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: var(--spacing-large);
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+
+}
+.shopping-element-wrapp{
+    margin: 15px;
+}
+.shopping-element__name{
+    width: 350px;
+    display: inline-block;
+    padding: var( --spacing-medium);
+    font-weight: bold;
+}
+.shopping-element__price{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+   padding: var( --spacing-medium);
+   color: var(--color-unaccent);
+}
+
+.shopping-element__position{
+    text-align: right;
+}
+.shopping__close{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(../../img/close.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+   cursor: pointer;
+}
+.shopping-rows-wrap{
+    width: 600px;
+}
