@@ -1,0 +1,23 @@
+.sortProducts {
+  width: 100%;
+  height: 80px;
+  background-color: var(--color-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sort-btn {
+  margin: 0 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px;
+  border: none;
+  color: teal;
+  background-color: whitesmoke;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+.sort-btn:hover{
+    background-color: wheat;
+    color: #222;
+}
