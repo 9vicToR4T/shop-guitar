@@ -2,12 +2,19 @@
   display: flex;
   justify-content: flex-end;
   height: 50px;
-  padding: var(--spacing-small);
   background-color: var(--color-dark);
 }
 
 .header-counter {
+  display: flex;
+  align-items: center;
   padding-right: var(--spacing-small);
   font-weight: bold;
   cursor: pointer;
+  margin-right: 50px;
+  height: inherit;
+}
+.header-counter__nr {
+  font-size: 20px;
+  color: #222;
 }

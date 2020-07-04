@@ -27,3 +27,8 @@
   border-radius: var(--border-radius);
   padding: 10px;
 }
+
+@media screen and (max-width: 610px) {
+  .sort-search {
+    display: none;
+}}

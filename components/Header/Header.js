@@ -13,7 +13,7 @@ class Header {
     const html = `
         <div class="header-container">
             <div class="header-counter" onclick="headerPage.handleOpenShoppingPage();">
-            <img src="img/shopping-bag.png" />${count}
+            <img src="img/shopping-bag.png" /><span class="header-counter__nr">${count}</span>
             </div>
         </div>
         `;
