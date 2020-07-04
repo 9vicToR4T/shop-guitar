@@ -17,7 +17,13 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
-.sort-btn:hover{
-    background-color: wheat;
-    color: #222;
+.sort-btn:hover {
+  background-color: wheat;
+  color: #222;
+}
+.sort-search {
+  border: none;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 10px;
 }

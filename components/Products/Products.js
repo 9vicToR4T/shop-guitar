@@ -47,7 +47,7 @@ class Products {
       }
 
       htmlCatalog += `
-                <li class="products-element" data-price="${price}">
+                <li class="products-element" data-price="${price}" data-name="${name}">
                     <span class="products-element__name">${name}</span>
                     <img class="products-element__img" src="${img}" />
                     <span class="products-element__price" >${price}<img src="img/euro.png" class="myIcon" alt="euro"/></span>
